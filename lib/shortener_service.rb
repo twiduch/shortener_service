@@ -22,7 +22,12 @@ module ShortenerService
     get '/:short_url' do
       index = Shortener.new.index(params['short_url'])
       url = GlobalStorage[index]
-      redirect (url ? url : '/front'), 301
+
+      if url
+        redirect url, 301
+      else
+        redirect '/front'
+      end
     end
 
     post '/' do

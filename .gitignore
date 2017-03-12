@@ -1,0 +1,5 @@
+.rbenv-gemsets
+.DS_Store
+*~
+gems
+tmp

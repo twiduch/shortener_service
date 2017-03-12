@@ -1,0 +1,17 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: 10px;
+}
+
+.result {
+  margin-top: 10px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}

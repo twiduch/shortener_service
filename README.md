@@ -1,4 +1,4 @@
-#Product Promotions
+#Shortener Service
 
 ##How to run
 Install all gems
